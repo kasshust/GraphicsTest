@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.hecomi.hlsltoolsforvisualstudioconfiggenerator": {
+      "version": "https://github.com/hecomi/HLSLToolsForVisualStudioConfigGenerator.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "24c1c38f35bd3111c1b7962ef92870bf5748f875"
+    },
     "com.unity.collab-proxy": {
       "version": "1.15.4",
       "depth": 0,
@@ -144,6 +151,13 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "jp.co.cyberagent.nova": {
+      "version": "https://github.com/CyberAgentGameEntertainment/NovaShader.git?path=/Assets/Nova",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "f6b4dc094b980481ef121f3d486ca7fa1944e846"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
