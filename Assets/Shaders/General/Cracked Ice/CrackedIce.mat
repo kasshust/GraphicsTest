@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CrackedIce
+  m_Shader: {fileID: -6465566751694194690, guid: 13896134dbd73224e95d41a9b461f65c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_14d7c5dc2a2d4033b2f69d8d55f55913:
+        m_Texture: {fileID: 2800000, guid: 289289497b0f57344bf2d0b89837d2f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_3c3eeccab7354fd69c5831044fde19bb:
+        m_Texture: {fileID: 2800000, guid: acb564555d9efe347ae2648f7f6c51d0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_7f19ee434c124312b15ee232060a1fd3:
+        m_Texture: {fileID: 2800000, guid: d03763aa265387f4794f6448a47af490, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_992024b4132a4f9681efd0f0e4933d92:
+        m_Texture: {fileID: 2800000, guid: a72f4ac7b6b24af479d8244e31509796, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMapping_72765011ad3e4ec3badeba7047b12f2c_Heightmap_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a67d064bf2a54804a45cb7282df5f388_Texture_1:
+        m_Texture: {fileID: 2800000, guid: acb564555d9efe347ae2648f7f6c51d0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_49af80c4f29b4aaba69ff7fcdc7252bf: 0.662
+    - Vector1_6a3be32a22954515b4eb3bae84724709: 0.9
+    - Vector1_8682db9aacb84c748276aa72997a11f1: 0.019
+    m_Colors:
+    - Vector2_145de7e2e6024c2fa0042bb75d44a83c: {r: 5, g: 5, b: 0, a: 0}
+  m_BuildTextureStacks: []
