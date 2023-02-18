@@ -280,4 +280,27 @@ AdditionalLightsToon_float(SpecColor, Smoothness, WorldPosition, WorldNormal, Wo
 	PointLightBands, SpotLightBands,Diffuse, Specular);
 }
 
+
+void AdditionalLightsSSS_float(float3 WorldPosition, float3 WorldNormal, float3 WorldView, half4 Shadowmask, float SSSThreshold,
+							out float3 Diffuse)
+{
+    float3 diffuseColor = 0;
+    float3 specularColor = 0;
+
+#ifndef SHADERGRAPH_PREVIEW
+    WorldNormal = normalize(WorldNormal);
+    WorldView = SafeNormalize(WorldView);
+    int pixelLightCount = GetAdditionalLightsCount();
+    for (int i = 0; i < pixelLightCount; ++i)
+    {
+        Light light = GetAdditionalLight(i, WorldPosition, half4(1, 1, 1, 1));
+
+        float3 attenuatedLightColor = light.color * (light.distanceAttenuation * light.shadowAttenuation);
+        diffuseColor += smoothstep(SSSThreshold, 1, saturate(dot(light.direction, WorldView))) * attenuatedLightColor;
+    }
+#endif
+
+    Diffuse = diffuseColor;
+}
+
 #endif // CUSTOM_LIGHTING_INCLUDED
