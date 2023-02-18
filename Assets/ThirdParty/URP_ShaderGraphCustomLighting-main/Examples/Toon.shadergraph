@@ -256,7 +256,11 @@
             "m_Id": "1ed3914b298343fa90c872ad4e3e03c7"
         }
     ],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "ed6c313d9f104305ae62d4fbef03ec46"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -3661,8 +3665,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -117.00000762939453,
-            "y": -537.0,
+            "x": -173.00003051757813,
+            "y": -536.0000610351563,
             "width": 255.0,
             "height": 142.0
         }
@@ -4878,9 +4882,9 @@
         "m_Position": {
             "serializedVersion": "2",
             "x": 680.0,
-            "y": 873.0000610351563,
-            "width": 227.0,
-            "height": 190.0
+            "y": 873.0,
+            "width": 297.0,
+            "height": 446.0
         }
     },
     "m_Slots": [
@@ -7696,6 +7700,26 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.AlphaClipThreshold"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "ed6c313d9f104305ae62d4fbef03ec46",
+    "m_Title": "Shadowが死ぬ",
+    "m_Content": "Write something here",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1698.0,
+        "y": -778.0,
+        "width": 544.55419921875,
+        "height": 317.41058349609377
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {

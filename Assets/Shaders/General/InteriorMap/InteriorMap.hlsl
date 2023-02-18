@@ -148,14 +148,16 @@ void InteriorMap_float(
         }
     }
     
+    
     // depth wall
     {
         float which = step(0.0, dot(rayDir, FrontVec));
         planeNormal = float3(0.0, 0.0, lerp(1., -1., which));
         float depth = Depth;
         
-        planePos = ((rayPos.z + depth));
-        planePos.z -= lerp(0.5, 0.5, which);
+        planePos.z = round((rayPos.z) / depth);
+        planePos.z -= lerp(0.5, -0.5, which);
+        planePos.z *= depth;
         
         float l = GetIntersectLength(rayPos, rayDir, planePos, planeNormal);
         if (l <= len)
@@ -168,6 +170,7 @@ void InteriorMap_float(
         }
         
     }
+    
     
     // float d = IntersectPos.z / Depth * Depth;
     float3 Light = Albedo.xyz * Color.xyz * LightIntensity;

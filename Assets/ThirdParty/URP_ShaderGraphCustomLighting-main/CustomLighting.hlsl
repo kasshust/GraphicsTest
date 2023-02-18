@@ -254,8 +254,8 @@ void AdditionalLightsToon_float(float3 SpecColor, float Smoothness, float3 World
 			diffuseColor += light.color * step(0.0001, light.distanceAttenuation * light.shadowAttenuation);
 		}else{
 			// Multiple bands :
-			diffuseColor += light.color * light.shadowAttenuation * ToonAttenuation(i, WorldPosition, PointLightBands, SpotLightBands);
-		}
+            diffuseColor += light.color * light.shadowAttenuation * ToonAttenuation(i, WorldPosition, PointLightBands, SpotLightBands);
+        }
 
 		// SPECULAR
 		// Didn't really like the look of specular lighting in the toon shader here, so just keeping it at 0 (black, no light).
