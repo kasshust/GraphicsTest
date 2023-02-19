@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_SimpleGrass
+  m_Shader: {fileID: -6465566751694194690, guid: 4a2299680d84f6549b944c21cc722048, type: 3}
+  m_ShaderKeywords: BOOLEAN_DE0378C5EEAD4C43AF5AE8342A5B91A0_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_ab7f9816cb9141ac8a2087568b3b9019:
+        m_Texture: {fileID: 2800000, guid: 4b32926ec0fdce74bb1f458410eeee0e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - BOOLEAN_DE0378C5EEAD4C43AF5AE8342A5B91A0: 1
+    - Vector1_35bc46c11b404e9ab8b3c5b2eeede128: 0.0019
+    - Vector1_6488b26daf4840f48748844508891dfa: 0.05
+    - Vector1_94da6c9cccaf4e9789f20038f71b7acf: 0.005
+    - Vector1_bef9a8b646444ac8b68994632a265017: 1.3
+    - Vector1_d6adbec053154d2d9249ec72798ab1ea: 42
+    m_Colors: []
+  m_BuildTextureStacks: []
